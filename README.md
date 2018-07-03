@@ -11,6 +11,22 @@ Sample Code :
 
     q)data:flip `l1`l2`l3`l4!("aaaaaaaaaaaaa";"bbffjjjjjssww";"ccggkknppttxx";"dehilmoqruvyz");
     q)tree[data;`l1`l2`l3`l4]
+    
+    q)-1_1_.j.j tree[data;`l1`l2`l3`l4]
+    {"name":"a","children":[{"name":"b","children":[{"name":"c","children":[{"l4":"d","name":"d"},
+     {"l4":"e","name":"e"}]}]},
+     {"name":"f","children":[{"name":"g","children":[{"l4":"h","name":"h"},
+     {"l4":"i","name":"i"}]}]},
+     {"name":"j","children":[{"name":"k","children":[{"l4":"l","name":"l"},
+     {"l4":"m","name":"m"}]},
+     {"name":"n","children":[{"l4":"o","name":"o"}]},
+     {"name":"p","children":[{"l4":"q","name":"q"},
+     {"l4":"r","name":"r"}]}]},
+     {"name":"s","children":[{"name":"t","children":[{"l4":"u","name":"u"},
+     {"l4":"v","name":"v"}]}]},
+     {"name":"w","children":[{"name":"x","children":[{"l4":"y","name":"y"},
+     {"l4":"z","name":"z"}]}]}]}
+
 
 Table :
 
