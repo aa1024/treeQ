@@ -1,6 +1,15 @@
 # treeQ
 A q/kdb+ library to convert a normalized table to a tree structure
 
+# `tree` Function 
+
+It takes 2 arguments :
+* Normalized table
+* Path of the tree to be constructed 
+
+    q)data:flip `l1`l2`l3`l4!("aaaaaaaaaaaaa";"bbffjjjjjssww";"ccggkknppttxx";"dehilmoqruvyz");
+    q)tree[data;`l1`l2`l3`l4]
+
 
 Normalized table :
 
